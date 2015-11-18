@@ -28,6 +28,7 @@ endif
 #
 ONL_REQUIRED_PACKAGES := kernel-85xx:powerpc \
              kernel-e500mc:powerpc \
+	     kernel-corenet:powerpc \
 			 initrd-powerpc:powerpc
 
 include $(ONL)/make/component.mk
